@@ -1,0 +1,161 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body{
+    color: #1D3557;
+}
+
+#hero{
+    background-image: url("images/torshov.jpg");
+    background-size: cover;
+    padding: 119px 124px;
+    color: #ffffff;
+}
+
+h1{
+    font-family: 'Rubik', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #1D3557;
+    padding: 5px 12px;
+    border-radius: 10px;
+}
+
+h2{
+    font-family: 'Rubik', sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    background: #457B9D;
+    padding: 8px 24px;
+    border-radius: 10px;
+}
+
+img {
+    width: 100px;
+}
+
+#activities-section{
+    background: #F1FAEE;
+    padding: 40px;
+    text-align: center;
+}
+
+#activities-section h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+#activities{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 54px;
+    gap: 33px;
+}
+
+.image{
+    border-radius: 150px;
+    margin-bottom: 22px;
+}
+
+.activity h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.activity p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 17px;
+}
+
+#guide-section{
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 23px 16px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background: #A8DADC; 
+    border-radius: 10px;
+    border-bottom: 4px solid #1D3557;
+    color: #1D3557;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    gap: 8px;
+}
+
+
+#guide-section img{
+    width: 150px;
+    border-radius: 10px;
+}
+
+#guide-details h3{
+    font-family: 'Rubik', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+span{
+    width: 19px;
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+#guide-details p{
+        margin: 14px 0 16px;
+}
+
+#guide-details h4{
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
